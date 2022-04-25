@@ -23,6 +23,8 @@ el store sirve para almacenar los datos de nuestra aplicación. dando un valor i
 
 en la carpeta action se encuentran las acciones que se ejecutaran en nuestra aplicación. 
    
+   por ejemplo: 
+   ```
    export const login = createAsyncThunk(
         'client/login',
         async () => {
@@ -33,7 +35,7 @@ en la carpeta action se encuentran las acciones que se ejecutaran en nuestra apl
             return response.data.token;
         }
     );
- 
+ ```
 
 2.2) Si quisiéramos agregar una ruta nueva a la app, ¿cómo reestructurarías
 el index.js?
