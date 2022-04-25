@@ -25,6 +25,7 @@ en la carpeta action se encuentran las acciones que se ejecutaran en nuestra apl
 
 ejemplo:
   
+  
    export const login = createAsyncThunk(
         'client/login',
         async () => {
@@ -34,7 +35,7 @@ ejemplo:
             })
             return response.data.token;
         }
-    )
+    );
  
 
 2.2) Si quisiéramos agregar una ruta nueva a la app, ¿cómo reestructurarías
@@ -53,7 +54,7 @@ ReactDOM.render(
         <App />
       </BrowserRouter>,
   </React.StrictMode>,
-  document.getElementById("root")
+  document.getElementById("root");
 
  Si estamos usando redux para el estado de la aplicación, podemos usar el componente Provider para pasarle el estado a todos los componentes de la aplicación. 
 
