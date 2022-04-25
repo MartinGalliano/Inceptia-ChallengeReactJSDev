@@ -1,0 +1,66 @@
+.reports{
+   width: 90%;
+   margin: 0 auto;
+   font-size: 2rem;
+   border-bottom:rgb(107, 107, 107) solid 1px;
+   margin-bottom:1rem;
+}
+
+.table{
+   margin-top: 1rem;
+   border:rgb(107, 107, 107) solid 2px;
+}
+.tables{
+    background-color: #97e0f7;
+ }
+ .item{
+  
+    border:rgb(0, 0, 0) solid 6px;
+ }
+ .msj{
+    text-align: center;
+     border:rgb(0, 0, 0) solid 1px;
+  }
+ .info{
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+    border:rgb(0, 0, 0) solid 1px;
+ }
+
+ .conversations{
+    background-color: azure;
+    border:rgb(0, 0, 0) solid 1px;
+ }
+ .infoconver{
+    padding: 10px;
+    text-align: center;
+    border:rgb(0, 0, 0) solid 1px;
+    cursor: pointer;
+ }
+ .infoconver:hover{
+    background-color: #97e0f7;
+    color: rgb(250, 7, 7);
+    font-size:1.5rem ;
+ }
+ 
+ .containerPage{
+   display: flex;
+   margin-left: 50%;
+ margin-top: 1rem;
+ 
+ }
+
+.icon{
+    font-size: 1.5rem;
+    color: rgb(245, 7, 7);
+}
+.icon:hover{
+    color: rgb(3, 1, 1);
+}
+.npage{
+    font-size: 1.5rem;
+  padding: 0.2rem;
+    border: #97e0f7 solid 5px;
+    color: rgb(245, 7, 7);
+}

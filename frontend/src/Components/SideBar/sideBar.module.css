@@ -1,0 +1,31 @@
+.Container{
+  display: flex;
+  flex-direction: column;
+  margin-right: 1rem;
+  padding-bottom:auto;
+  margin-top: 6rem;
+}
+.nav{
+    display: flex;
+    float : left;
+   
+   }
+.h3{
+    
+   
+    margin:2rem;
+}
+.menu{
+    margin:1rem;
+    font-size: 1rem;
+    padding: 1rem;
+    cursor: pointer;
+    color: rgb(65, 64, 64);
+    font-weight: bold;
+}
+.menu:hover {
+    background-color: #97e0f7;
+    color: rgb(250, 7, 7);
+    transform: translateY(-7px);
+   }
+   
