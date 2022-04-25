@@ -22,14 +22,11 @@ provider es un componente que nos permite utilizar redux en nuestra aplicación.
 el store sirve para almacenar los datos de nuestra aplicación. dando un valor inicial a nuestra aplicación.
 
 en la carpeta action se encuentran las acciones que se ejecutaran en nuestra aplicación. 
-
-ejemplo:
-  
-  
+   
    export const login = createAsyncThunk(
         'client/login',
         async () => {
-            const response = await axios.post('https://admindev.inceptia.ai/api/v1/login/', {
+           const response = await axios.post('https://admindev.inceptia.ai/api/v1/login/', {
                 "email": "reactdev@iniceptia.ai",
                 "password": "4eSBbHqiCTPdBCTj",
             })
@@ -48,13 +45,14 @@ quedaria algo asi como:
 
 import {BrowserRouter} from 'react-router-dom';
 
-ReactDOM.render(
+ ReactDOM.render(
   <React.StrictMode>
        <BrowserRouter>
         <App />
       </BrowserRouter>,
   </React.StrictMode>,
-  document.getElementById("root");
+  document.getElementById("root")
+  ;
 
  Si estamos usando redux para el estado de la aplicación, podemos usar el componente Provider para pasarle el estado a todos los componentes de la aplicación. 
 
