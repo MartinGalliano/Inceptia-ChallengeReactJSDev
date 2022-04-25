@@ -44,7 +44,7 @@ Para usar mas de una ruta en React es necesario usar el enrutador de react-route
 haciendo npm install – -save react-router-dom y importando BrowserRouter de react-router-dom en el index.js
 y lluego usando el componente Route para crear las rutas que definiria en el componente app.
 quedaria algo asi como:
-
+```
 import {BrowserRouter} from 'react-router-dom';
 
  ReactDOM.render(
@@ -55,7 +55,7 @@ import {BrowserRouter} from 'react-router-dom';
   </React.StrictMode>,
   document.getElementById("root")
   ;
-
+```
  Si estamos usando redux para el estado de la aplicación, podemos usar el componente Provider para pasarle el estado a todos los componentes de la aplicación. 
 
     import {Provider} from 'react-redux';   
